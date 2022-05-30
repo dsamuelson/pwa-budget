@@ -64,4 +64,4 @@ function uploadTransaction() {
     }
 }
 
-window.addeListener('online', uploadTransaction);
+window.addEventListener('online', uploadTransaction);
